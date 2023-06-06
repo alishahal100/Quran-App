@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('https://quran.com/fonts/quran/surah-names/v1/sura_names.woff2') format('woff');
+  }
+  
+
+.ayah-body{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    background: #1f2125;
+}
+.audio-btn{
+    width: 20vh;
+    height: 5vh;
+    border-radius: 5px;
+    background:none ;
+    border: none;
+    color:#2ca4ab ;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.ayah-arab{
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;  
+    font-family: CustomFont;
+    word-spacing: 13px;
+}
+
+
+.surah-verse-number{
+    font-size: 1rem;
+    font-weight: lighter;
+    
+}
+.ayah-arab > p{
+    line-height: 1.8;
+    
+}
+.ayah-translation > p{
+   
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+}

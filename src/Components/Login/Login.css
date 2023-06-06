@@ -1,0 +1,46 @@
+
+
+.qur-login-body{
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow:5px 5px 5px 5px rgba(0.3, 0.3, 0.3, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px; 
+}
+.qur-login-inp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+.qur-login-inp >input{
+    width: 35vh;
+    height: 3vh;
+    border-radius: 5px;
+    border: 1px solid #403838;
+    padding-left: 10px;
+
+}
+.qur-login-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+    align-items: center;
+}
+.qur-login-btn >button{
+    width: 20vh;
+    height: 3vh;
+    font-size: medium;
+    font-weight: bold;
+    color: #403838;
+    border-radius: 5px;
+    border: 1px solid #403838;
+    cursor: pointer;
+}
